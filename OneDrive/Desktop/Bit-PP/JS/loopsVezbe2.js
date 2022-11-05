@@ -4,34 +4,36 @@ Output: yes
 Input: e = 3, a = [5, -4.2, 18, 7]
 Output: no*/
 
-// var a = [5,-4.2, 3, 6, -7, 9];
-// var b = 4;
-// var result =''
-// switch(b) {
-//     case 5 :
-//     case -4.2 :
-//     case 3 :
-//     case 6 :
-//     case -7 :
-//     case 9 :
-//     result = 'yes';
-//     break;
-//     default:
-//     result = 'No'
-//     break;
+var a = [5,-4.2, 3, 6, -7, 9];
+var b = 4;
+var result =''
+switch(b) {
+    case 5 :
+    case -4.2 :
+    case 3 :
+    case 6 :
+    case -7 :
+    case 9 :
+    result = 'yes';
+    break;
+    default:
+    result = 'No'
+    break;
 
 
-// }
-// console.log(result)
+}
+console.log(result)
+var a = [5,-4.2, 3, 6, -7, 9];
+var b = 3;
 
-// for(var i =0;i<a.length;i++){
-//     result = a[i];
-//     if(b == result){
-//         result = 'yes'
-//     }
-//     else{result = 'No'}
-// }
-// console.log(result);
+for(var i =0;i<a.length;i++){
+    result = a[i];
+    if(b == result){
+        result = 'yes'
+    }
+    else{result = 'No'}
+}
+console.log(result);
 
 /*2. Write a program that multiplies every positive element of a given array by 2.
 Input array: [-3, 11, 5, 3.4, -8]
@@ -78,17 +80,17 @@ Output: 2*/
 Input array: [3, 11, -5, -3, 2]
 Output: 16*/
 
-// var a = [3, 11, -5, -3, 2];
-// var b = 0;
+var a = [3, 11, -5, -3, 2];
+var b = 0;
 
-// for(var i=0;i<a.length;i++){
-//     if(a[i]>0){
+for(var i=0;i<a.length;i++){
+    if(a[i]>0){
         
-//         b +=a[i];
-//     }
+        b +=a[i];
+    }
   
-// }
-// console.log(b);
+}
+console.log(b);
 
 
 /*6. Write a program that checks if a given array is symmetric. An array is symmetric if it can
@@ -160,6 +162,8 @@ for(var i=0;i<=a.length;i++){
 
 }
 console.log(a);
+
+
 
 
 

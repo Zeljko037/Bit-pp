@@ -74,6 +74,7 @@ var input = [2, 4, -2, 7, -2, 4, 2];
 var isSymmetric = false;
 var j = input.length -1;
 
+console.log(j)
 for(var i = 0; i< input.length; i++) {
     if (i == j) {
         break;
