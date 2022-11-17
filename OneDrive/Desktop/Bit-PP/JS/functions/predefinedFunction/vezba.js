@@ -51,7 +51,7 @@ var b = [];
 function brojevi(input){
 for(var i = 0;i<input.length;i++){
 
-    if(Number(input[i],)&& input[i] != Infinity){
+    if(Number(input[i],) && input[i] != Infinity){
         b.push(Number(input[i]));
     }
 

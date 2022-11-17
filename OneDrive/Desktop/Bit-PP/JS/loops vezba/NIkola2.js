@@ -190,17 +190,3 @@ var p = 3;
 
 a.splice(p, 0, e)
 console.log(a);
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
