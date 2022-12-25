@@ -131,6 +131,22 @@ console.log(b);
 //10. Write a program that calculates the number of appearances of a letter a in a given string.
 //Modify the program so it calculates the number of both letters a and A.
 
+
+function slova(a){
+    brojac=0;
+    for(i=0;i<a.length;i++){
+        if(a[i] == 'a' || a[i]== 'A'){
+            brojac++
+        }
+    }
+    return brojac
+}
+
+console.log(slova('Abrakadabra'))
+
+
+
+
 var ad = slova('Abrakadabra')
 
 

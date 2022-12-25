@@ -55,7 +55,6 @@ var a = [1, 2, 3, 4, 5, 6]
 var k = 3
 
 var right = a.splice(k);
-
 var prikaz = right.concat(a)
 console.log(prikaz)
 
@@ -67,7 +66,7 @@ function input(a) {
     var prikaz = [];
     for (i = 0; i < 10; i++) {
         if (a > 0) {
-            var c = a % 10
+            var c = b
             a = Math.floor(a / 10)
             prikaz.push(c)
         }

@@ -53,3 +53,5 @@ function promesaj(a,k){
 console.log(vrteska);
 
 //4. Write a function that takes a number and returns array of its digits.
+
+

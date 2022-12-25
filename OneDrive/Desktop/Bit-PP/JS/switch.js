@@ -1,33 +1,33 @@
-// var a = 6;
-// var result = '';
+var a = 6;
+var result = '';
 
-// switch (a) {
-//     case 1:
-//         result = 'ponedeljak';
-//         break;
-//     case 2:
-//         result = 'utorak';
-//         break;
-//     case 3:
-//         result = 'sreda';
-//         break;
-//     case 4:
-//         result = 'cetvrtak';
-//         break;
-//     case 5:
-//         result = 'petak'
-//         break;
-//     case 6:
-//         result = 'subota'
-//         break;
-//     case 7:
-//         result = 'nedelja'
-//         break;
-//     default: 
-//         result = 'rezultat mora da bude izmedju 1 i 7'
-//         break;
-// }
-// console.log(result)
+switch (a) {
+    case 1:
+        result = 'ponedeljak';
+        break;
+    case 2:
+        result = 'utorak';
+        break;
+    case 3:
+        result = 'sreda';
+        break;
+    case 4:
+        result = 'cetvrtak';
+        break;
+    case 5:
+        result = 'petak'
+        break;
+    case 6:
+        result = 'subota'
+        break;
+    case 7:
+        result = 'nedelja'
+        break;
+    default: 
+        result = 'rezultat mora da bude izmedju 1 i 7'
+        break;
+}
+console.log(result)
 
 // 3.
 // var a = 6;
